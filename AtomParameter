@@ -1,0 +1,146 @@
+#################################################################################
+# PyMSATm -- Python Multipurpose Simulation analysis Tools Package for MuSiC    #
+# Simulation Software                                                           #
+# Copyright (C) 2017  Xumiao Zhou, Li Yang                                      #
+#                                                                               #
+# 1026715200@qq.com                                                             #
+# liyang@wit.edu.cn                                                             #
+#                                                                               #
+# Contact Address :                                                             #
+# Li Yang                                                                       #
+# School of Chemical Engineering and Pharmacy                                   #
+# Wuhan Institute of Technology                                                 #
+# No.206, Guanggu 1st road                                                      #
+# Donghu New & High Technology Development Zone                                 #
+# Wuhan, Hubei Province, P.R. China                                             #
+# Postcode: 430205                                                              #
+#################################################################################
+
+# This file records all atom parameters
+# Please do not modify or delete comments and key words
+# The Pseudo atom uses name by M_, e.g. M_n2
+# Lorentz Berthelot mixing rules are used to calculate the cross site-site
+# UFF (In silico screening of 4764 computation-ready, experimental metal-organic frameworks for CO2 separation)
+# The atom mass from Israel Science and Technology Homepage
+
+MaterialAtom:
+Number  AtomName    Sigma     Epsilon     FF     Mass
+1       Ac_m        3.1       16.6        UFF    227.0
+2       Ag_m        2.8       18.11       UFF    107.8682
+3       Al_m        4.01      254.09      UFF    26.9815
+4       Am_m        3.01      7.04        UFF    243.0
+5       Ar_m        3.45      93.08       UFF    39.948
+6       As_m        3.77      155.47      UFF    74.9216
+7       At_m        4.23      142.89      UFF    210.0
+8       Au_m        2.93      19.62       UFF    196.9665
+9       B_m         3.64      90.57       UFF    10.811
+10      Ba_m        3.3       183.15      UFF    137.327
+11      Be_m        2.45      42.77       UFF    9.0122
+12      Bi_m        3.89      260.63      UFF    208.9804
+13      Bk_m        2.97      6.54        UFF    247
+14      Br_m        3.73      126.29      UFF    79.904
+15      C_m         3.43      52.83       UFF    12.0107
+16      Ca_m        3.03      119.75      UFF    40.078
+17      Cd_m        2.54      114.21      UFF    112.411
+18      Ce_m        3.17      6.54        UFF    140.116
+19      Cf_m        2.95      6.54        UFF    251.0
+20      Cl_m        3.52      114.21      UFF    35.453
+21      Cm_m        2.96      6.54        UFF    247.0
+22      Co_m        2.56      7.04        UFF    58.9332
+23      Cr_m        2.69      7.55        UFF    51.9961
+24      Cu_m        3.11      2.52        UFF    63.546
+25      Cs_m        4.02      22.64       UFF    132.9055
+26      Dy_m        3.05      3.52        UFF    162.5
+27      Eu_m        3.11      4.03        UFF    151.964
+28      Er_m        3.02      3.52        UFF    167.259
+29      Es_m        2.94      6.04        UFF    252.0
+30      F_m         3         25.16       UFF    18.9984
+31      Fe_m        2.59      6.54        UFF    55.845
+32      Fm_m        2.93      6.04        UFF    257.0
+33      Fr_m        4.37      25.16       UFF    223.0
+34      Ga_m        3.9       208.81      UFF    69.723
+35      Ge_m        3.81      190.69      UFF    72.64
+36      Gd_m        3         190.69      UFF    157.25
+37      H_m         2.57      22.14       UFF    1.0079
+38      Hf_m        2.8       36.23       UFF    178.49
+39      Hg_m        2.41      193.71      UFF    200.59
+40      Ho_m        3.04      3.52        UFF    164.9303
+41      I_m         4.01      170.57      UFF    126.9045
+42      In_m        3.98      301.39      UFF    114.818
+43      Ir_m        2.53      36.73       UFF    192.217
+44      K_m         3.4       17.61       UFF    39.0983
+45      Kr_m        3.69      110.69      UFF    83.8
+46      La_m        3.14      8.55        UFF    138.9055
+47      Li_m        2.18      12.58       UFF    6.941
+48      Lu_m        3.24      20.63       UFF    174.967
+49      Lr_m        2.88      5.53        UFF    262.0
+50      Md_m        2.92      5.53        UFF    258.0
+51      Mg_m        2.69      55.85       UFF    24.305
+52      Mn_m        2.64      6.54        UFF    54.938
+53      Mo_m        2.72      28.18       UFF    95.94
+54      N_m         3.26      34.72       UFF    14.0067
+55      Na_m        2.66      15.09       UFF    22.9897
+56      Ne_m        2.66      21.13       UFF    20.1797
+57      Nb_m        2.82      29.69       UFF    92.9064
+58      Nd_m        3.18      5.03        UFF    144.24
+59      No_m        2.89      5.53        UFF    259.0
+60      Ni_m        2.52      7.55        UFF    58.6934
+61      Np_m        3.05      9.56        UFF    237.0
+62      O_m         3.12      30.19       UFF    15.9994
+63      Os_m        2.78      18.62       UFF    190.23
+64      P_m         3.69      153.46      UFF    30.9738
+65      Pa_m        3.05      11.07       UFF    231.0359
+66      Pb_m        3.83      333.59      UFF    207.2
+67      Pd_m        2.58      24.15       UFF    106.42
+68      Pm_m        3.16      4.53        UFF    145.0
+69      Po_m        4.2       163.52      UFF    209.0
+70      Pr_m        3.21      5.03        UFF    140.9077
+71      Pt_m        2.45      40.25       UFF    195.078
+72      Pu_m        3.05      8.05        UFF    244.0
+73      Ra_m        3.28      203.27      UFF    226.0
+74      Rb_m        3.67      20.13       UFF    85.4678
+75      Re_m        2.63      33.21       UFF    186.207
+76      Rh_m        2.61      26.67       UFF    102.9055
+77      Rn_m        4.25      124.78      UFF    222.0
+78      Ru_m        2.64      28.18       UFF    101.07
+79      S_m         3.59      137.86      UFF    32.065
+80      Sb_m        3.94      225.91      UFF    121.76
+81      Sc_m        2.94      9.56        UFF    44.9559
+82      Se_m        3.75      146.42      UFF    78.96
+83      Si_m        3.83      202.27      UFF    28.0855
+84      Sm_m        3.14      4.03        UFF    150.36
+85      Sn_m        3.91      285.28      UFF    118.71
+86      Sr_m        3.2       118.24      UFF    87.62
+87      Ta_m        2.82      40.75       UFF    180.9479
+88      Tb_m        3.07      3.52        UFF    158.9253
+89      Tc_m        2.67      24.15       UFF    98.0
+90      Te_m        3.98      200.25      UFF    127.6
+91      Th_m        3.03      13.08       UFF    232.0381
+92      Ti_m        2.83      8.55        UFF    47.867
+93      Tl_m        3.87      342.14      UFF    204.3833
+94      Tm_m        3.01      3.02        UFF    168.9342
+95      U_m         3.02      11.07       UFF    238.0289
+96      V_m         2.8       8.05        UFF    50.9415
+97      W_m         2.73      33.71       UFF    183.84
+98      Xe_m        3.92      167.04      UFF    131.293
+99      Y_m         2.98      36.23       UFF    88.9059
+100     Yb_m        114.72    2.99        UFF    173.04
+101     Zn_m        2.46      62.39       UFF    65.39
+102     Zr_m        2.78      34.72       UFF    91.224
+
+GasAtom:
+Number   AtomName    Sigma    Epsilon    Mass
+1        H_h2s       0        0          1.0079
+2        S_h2s       3.7      275        32.065
+3        N_n2        3.31     36         14.0067
+4        M_n2        0        0          0
+5        O_h2o_4     3.15     78         15.9994
+6        H_h2o_4     0        0          1.0079
+7        M_h2o_4     0        0          0
+8        O_o2        3.05     54.4       15.9994
+9        M_o2        0        0          0
+
+SpecialPair:
+Number    AtomNameOne    AtomeNameTwo    Sigma     Epsilon
+1         S_h2s          C_m             3.5       73
+2         H_h2s          C_m             3.0       173

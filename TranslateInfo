@@ -1,0 +1,32 @@
+#################################################################################
+# PyMSATm -- Python Multipurpose Simulation analysis Tools Package for MuSiC    #
+# Simulation Software                                                           #
+# Copyright (C) 2017  Xumiao Zhou, Li Yang                                      #
+#                                                                               #
+# 1026715200@qq.com                                                             #
+# liyang@wit.edu.cn                                                             #
+#                                                                               #
+# Contact Address :                                                             #
+# Li Yang                                                                       #
+# School of Chemical Engineering and Pharmacy                                   #
+# Wuhan Institute of Technology                                                 #
+# No.206, Guanggu 1st road                                                      #
+# Donghu New & High Technology Development Zone                                 #
+# Wuhan, Hubei Province, P.R. China                                             #
+# Postcode: 430205                                                              #
+#################################################################################
+
+# This is a information file for TranslateFormat.py
+# Please do not modify or delete comments and key words
+# Calculate the charge carefully because the pybel calculation results are -
+# - inconsistent with the original code calculations
+
+ReadFilePath: D:\Jobs\Code\ZxmTed\ExtraCodes\cif
+OutputPath: D:\Jobs\Code\ZxmTed\ExtraCodes\cif_charge
+CalculateCharge: yes (yes/no)
+# It will be closed, when export format setted as pdb
+ImportFormat: cif (cif&pdb)
+ExportFormat: mol (cif&pdb&mol)
+# The exported files of cif are set to P1
+ElementSuffix: _m (Can only input up to two characters due to demand of pdb format,e.g. '_*')
+# This function is very useful for distinguishing the same elements in materials and gases
